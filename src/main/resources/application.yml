@@ -1,5 +1,8 @@
 spring:
   datasource:
     url: jdbc:h2:mem:mydb
+  servlet:
+    multipart:
+      maxFileSize: 10MB
 server:
   port: 8082
