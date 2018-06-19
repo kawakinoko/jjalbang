@@ -4,5 +4,12 @@ spring:
   servlet:
     multipart:
       maxFileSize: 10MB
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: 874369133291-m3up1b05io0dr6n27apmm1t4ev79srbp.apps.googleusercontent.com
+            clientSecret: vYeMusAwtoauh5uGGllqD1c6
 server:
   port: 8082
